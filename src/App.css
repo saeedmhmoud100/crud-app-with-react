@@ -1,0 +1,50 @@
+h1{
+  text-align: center;
+}
+.container{
+  max-width: 800px;
+  min-height: 300px;
+  margin: 30px auto;
+  background-color: #fff;
+  border-radius: 0 0 30px 30px;
+  padding-top: 2px;
+}
+form{
+  width: 99%;
+height: 50px;
+margin: 8px auto;
+display: flex;
+flex-wrap: nowrap;
+}
+form > input{
+  width: 70%;
+
+}
+form > button{
+  width: 30%;
+}
+.list-item{
+  display: flex;
+  justify-content: space-between;
+  padding: 26px;
+  padding-right: 3px;
+  border-top: 1px solid #e3e3e3;
+}
+.text{
+  font-size: 34px;
+}
+.buttons{
+  width: 40%;
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+.buttons button:first-child{
+  margin-left: auto;
+  margin-right: 2%;
+  width: 39%;
+  height: 34px;
+}
+.buttons button:last-child{
+  height: 34px;
+}
